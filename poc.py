@@ -1,7 +1,7 @@
 import os
 import sys
 import re
-#https://raw.githubusercontent.com/trickest/cve/refs/heads/main/2020/CVE-2020-11023.md
+
 class Get_POC():
     #def __init__(self):
     #    pass
@@ -43,6 +43,7 @@ class Get_POC():
                 move_file()
         open_file()
     get_poc()
+
 def main():
     try:
         Get_POC()
